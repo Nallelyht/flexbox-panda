@@ -1,84 +1,33 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #666633;
+	font-family: 'Shadows Into Light', cursive;
+}
 
 header {
-    position: fixed;
-    background: #FF6666;
-    width: 100%;
-    top: 0;
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+	background: #FF6666;
+	width: 100%;
+	top: 0;
+	font-family: 'Love Ya Like A Sister', cursive;
 }
-body{
-	background-color: #666633; 
-}
-.navBar{
-    background-color: #FF6666;
-    height: 100%;
-    margin: 0;
-    padding: 30px
+.contenedorBarra{
+	height: 100%;
+	margin: 0;
+	padding: 30px;
+	background-color: #FF6666;
 }
 a{
-    font-size: 20px;
-    color: whitesmoke;
-    padding: 10px;
-    text-decoration: underline;
-	font-family: verdana;
+	font-size: 20px;
+	color: whitesmoke;
+	padding: 10px;
+	text-decoration:none;
 }
 a:hover{
-    color: #666633;
-}
-.contenedor{
-	padding-top: 100px;
-    background-color:#666633;
-    height: 100%;
-    width: 100%;
-}
-span{
-    margin-top: 50px;
-	text-align: right;
-	color: aliceblue;
-	padding: 2px 2px;
-	font-family: verdana;
-	
-}
-.imagen{
-    position: relative;
-    margin-left: 3%;
-    display: inline-block;
-    background: #6E6E6E;
-    width: 200px;
-    height: 200px;
-    padding-top: 6px;
-	
-	
-}
-.panda{
-    width: 200px;
-    height: 200px;
-    vertical-align: middle;
-	
-}
-.botones{
-	background-color: #666633;
-	align-content: center;
-	padding-left: 200px;
-	margin-top: 30px
+  color: #666633;
 }
 
-button{
-	background-color: #FF6666;
-	text-align: center;
-	margin-top: 20px;
-	padding: 5px 80px;
-	color:#fff;
-	font-family: verdana;
-}
-.lorem{
-	text-align: justify;
-	margin-top: 30px;
-	margin-left: 30px;
-	margin-right: 15px;
-	width: 420px;
-	height: 25px;
-	display: inline-block;
-	color: aliceblue;
-	font-family: verdana;
-    visibility: visible;
 }
