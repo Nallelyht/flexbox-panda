@@ -4,7 +4,6 @@ body{
 	background-color: #666633;
 	font-family: 'Shadows Into Light', cursive;
 }
-
 header {
 	position: fixed;
 	display: flex;
@@ -39,17 +38,17 @@ a:hover{
 	width: 100%;
 	margin: 5% 2%;
 }
-
 .imagen{
 	display: flex;
 	flex-wrap: wrap;
 	background: #6E6E6E;
-	margin: 5% 2%;
+	margin-top: 10%;
+	margin-left: 2%;
 	color: aliceblue;
 	padding: 2px;
 	font-size: 40px;
-	height: 210px;
-	width: 210px;
+	width: 20%;
+	height: 200px;
 }
 .panda1{
 	background-image:url(../img/panda1.jpg);
@@ -75,7 +74,6 @@ a:hover{
 	width: 100%;
 	height: 100%;
 }
-
 button{
 	background-color: #FF6666;
 	text-align: center;
