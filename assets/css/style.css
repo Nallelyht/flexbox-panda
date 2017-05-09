@@ -29,5 +29,73 @@ a{
 a:hover{
   color: #666633;
 }
+.contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	background-color:#666633;
+	height: 100%;
+	width: 100%;
+	margin: 5% 2%;
+}
 
+.imagen{
+	display: flex;
+	flex-wrap: wrap;
+	background: #6E6E6E;
+	margin: 5% 2%;
+	color: aliceblue;
+	padding: 2px;
+	font-size: 40px;
+	height: 210px;
+	width: 210px;
+}
+.panda1{
+	background-image:url(../img/panda1.jpg);
+	background-size: cover;
+}
+.panda2{
+	background-image:url(../img/panda2.jpg);
+	background-size: cover;
+}
+.panda3{
+	background-image:url(../img/panda3.jpg);
+	background-size: cover;
+}
+.panda4{
+	background-image:url(../img/panda4.jpg);
+	background-size: cover;
+}
+.botones{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #666633;
+	width: 100%;
+	height: 100%;
+}
+
+button{
+	background-color: #FF6666;
+	text-align: center;
+	margin: 5%;
+	padding: 5px 80px;
+	color:#fff;
+	font-family: 'Indie Flower', cursive;
+}
+.texto{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 5%;
+}
+.lorem{
+	text-align: justify;
+	color: aliceblue;
+  visibility: visible;
+	width: 40%;
+	margin-left: 2%;
+	font-size: 100%;
 }
